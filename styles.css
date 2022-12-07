@@ -1,9 +1,12 @@
+/* applies to all projects */
+
 * {
     margin:0;
     padding:10px;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
 
 
 
@@ -164,9 +167,9 @@ border-radius: 5px;
 
 
 
-/* PROJECT # 3 ACCORDION */
 
-body{
+/* PROJECT # 3 ACCORDION */
+/* body{
     background:url(img/project-3.jpg) no-repeat center center/cover;
     height: 100vh;
     display: flex;
@@ -211,10 +214,11 @@ body{
     height: 0px;
     overflow: hidden;
     transition:  .5s;
-}
+} */
 
 /* Javascript styling for Accordion */
 
+/* 
 .accordion .content-container.active .answer{
     height:150px;
 }
@@ -228,5 +232,64 @@ body{
     content: '-';
    font-size: 30px;
    transition: .5s;
+} */
+
+
+
+
+/* PROJECT 4: Stop-Watch */
+
+body{
+    height: 100vh;
+    background: url(img/project-4.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.container{
+    width:60%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+
+}
+
+#timer{
+width:100%;
+font-size: 70px;
+text-align: center;
+margin: 0px auto;
+padding-top: 40px;
+
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin: 0 10px;
+    border:none;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color:#fff;
+
+}
+
+
+#play{
+
+}
+
+#pause{
+    
+}
+
+#reset{
+    
+}
